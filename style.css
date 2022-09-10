@@ -1,3 +1,7 @@
 body, #progressbar{
   background-color: ivory;
 }
+
+#answer {
+  cursor: pointer;
+}

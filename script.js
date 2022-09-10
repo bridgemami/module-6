@@ -82,6 +82,7 @@ function checkAnswer(choice) {
 if (choice == myQuiz[turn].correct ) {
   $('#wrong').empty();
   //$('#right').html("<strong>Correct</strong>");
+  //pop-up for right answer
   $( function() {
     $( "#right" ).dialog({
       modal: true,
@@ -99,6 +100,7 @@ else{
   
   //$('#wrong').html("<strong>Incorrect</strong>");
   $( function() {
+    //pop up box for wrong answer
     $( "#wrong" ).dialog({
       modal: true,
       buttons: {
